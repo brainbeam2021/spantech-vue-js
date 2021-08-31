@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="card" id="card-style">
+        <div class="card-title" style="color: black; text-align: center; font-weight: bold; padding: 10px;">Animals
+        </div>
+        <div class="card-content">
+            <form>
+                <label style="font-size: large;">Animal Name</label>
+                <input type="text" name="name" id="animal-name">
+                <button class="btn blue" id="add">Add Animal <i class="fa fa-plus"></i></button>
+                <button class="btn red" id="clear">Clear Animal <i class="fas fa-eraser"></i></button>
+                <button class="btn green" id="fetch">Fetch Anmial <i class="fas fa-sync-alt"></i></button>
+            </form>
+            </br>
+            <div id="list-title-style">Animal Lists</div>
+            <label style="font-size: large;">Filter Animal</label>
+            <input type="text" name="filter-name" id="filter-animal-name">
+            <button class="btn btn-warning" id="filter">Filter Animal <i class="fas fa-filter"></i></button>
+            <div class="container-fluid" style="margin-top:15px;" id="animalList">
+                <!-- <div class="row">
+                    <div class="col s4">This div is 7-columns wide on pushed to the right by 5-columns.</div>
+                    <div class="col s4">5-columns wide pulled to the left by 7-columns.</div>
+                  </div> -->
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+            integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+        <script src="app.js"></script>
+</body>
+
+</html>
